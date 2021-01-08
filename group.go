@@ -75,7 +75,7 @@ func (g *Group) load(key string) (value ByteView, err error) {
 func (g *Group) getLocally(key string) (ByteView, error) {
 	bytes, err := g.getter.Get(key)
 	if err != nil {
-		return ByteView{}, errors.Wrap(err, "get local failed")
+		return ByteView{}, errors.Wrap(err, "get locally key failed")
 	}
 
 	value := ByteView{b: cloneBytes(bytes)}
