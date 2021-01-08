@@ -35,7 +35,7 @@ func New(maxBytes int64, onEvicted func(string, Value)) *Cache {
 }
 
 // Get look ups a key's Value
-func (c *Cache) Get(key string)(value Value, ok bool) {
+func (c *Cache) Get(key string) (value Value, ok bool) {
 	if elem, ok := c.cache[key]; ok {
 		c.ll.MoveToBack(elem) // 约定back为队尾（双向链表，队首队尾是相对的）
 		kv := elem.Value.(*entry)
