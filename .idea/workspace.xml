@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1dd77895-5183-4e52-8a4e-d2d1973db2a9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/lru/lru.go" beforeDir="false" afterPath="$PROJECT_DIR$/lru/lru.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lru/lru_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/lru/lru_test.go" afterDir="false" />
-    </list>
+    <list default="true" id="1dd77895-5183-4e52-8a4e-d2d1973db2a9" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
