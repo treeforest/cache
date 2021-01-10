@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="1dd77895-5183-4e52-8a4e-d2d1973db2a9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/group.go" beforeDir="false" afterPath="$PROJECT_DIR$/group.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/group_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/group_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http.go" beforeDir="false" afterPath="$PROJECT_DIR$/http.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +44,7 @@
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$" />
   </component>
-  <component name="RunManager" selected="Go Test.TestHashing in github.com/treeforest/cache/consistenthash">
+  <component name="RunManager" selected="Go Test.TestGroup_GetFromRemote in github.com/treeforest/cache">
     <configuration name="TestGet in github.com/treeforest/cache" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="cache" />
       <working_directory value="$PROJECT_DIR$" />
@@ -62,6 +65,17 @@
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <pattern value="^\QTestGetter\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestGroup_GetFromRemote in github.com/treeforest/cache" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="cache" />
+      <working_directory value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/treeforest/cache" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^\QTestGroup_GetFromRemote\E$" />
       <method v="2" />
     </configuration>
     <configuration name="TestHTTP in github.com/treeforest/cache" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -86,24 +100,13 @@
       <pattern value="^\QTestHashing\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestOnEvicted in github.com/treeforest/cache/lru" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="cache" />
-      <working_directory value="$PROJECT_DIR$/lru" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="github.com/treeforest/cache/lru" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <pattern value="^\QTestOnEvicted\E$" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestGroup_GetFromRemote in github.com/treeforest/cache" />
+        <item itemvalue="Go Test.TestGetter in github.com/treeforest/cache" />
+        <item itemvalue="Go Test.TestGet in github.com/treeforest/cache" />
         <item itemvalue="Go Test.TestHashing in github.com/treeforest/cache/consistenthash" />
         <item itemvalue="Go Test.TestHTTP in github.com/treeforest/cache" />
-        <item itemvalue="Go Test.TestGet in github.com/treeforest/cache" />
-        <item itemvalue="Go Test.TestGetter in github.com/treeforest/cache" />
-        <item itemvalue="Go Test.TestOnEvicted in github.com/treeforest/cache/lru" />
       </list>
     </recent_temporary>
   </component>
